@@ -8,15 +8,13 @@ This project explores risk-based decision-making using utility functions, implem
 
 Analyze and graphically represent the **risk utility preferences** for a company using the exponential utility function:
 
-\[
-$U(M) = e^{M/50} - 1$
-\]
+$$ U(M) = e^{M/50} - 1 $$
 
 Where `M` is the monetary value associated with either a guaranteed return or a probabilistic (risky) option.
 
 ---
 
-### 📊 Financial Options Compared
+### Financial Options Compared
 
 - **Option A:** Guaranteed to make $M
 - **Option B:** M% chance to make 100, (100 − M)% chance to make 0
@@ -64,7 +62,7 @@ The goal is to compute and compare the **expected utility** of both options for 
 
 ---
 
-### 🚀 How to Run
+### How to Run
 
 1. Clone the repo:
    ```bash
@@ -95,7 +93,9 @@ The goal is to compute and compare the **expected utility** of both options for 
 
 Developed by John Dawood as part of a project assignment on risk utility modeling and Python data analysis.
 
-### 📬 License
+---
+
+### License
 
 MIT License. Feel free to use this code as a learning reference or build upon it.
 
