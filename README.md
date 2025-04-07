@@ -2,7 +2,9 @@
 
 This project explores risk-based decision-making using utility functions, implemented in Python. The goal is to evaluate a company's preferences when faced with guaranteed outcomes versus probabilistic gains, and visualize those preferences using a utility curve.
 
-## Objective
+---
+
+### Objective
 
 Analyze and graphically represent the **risk utility preferences** for a company using the exponential utility function:
 
@@ -12,14 +14,18 @@ $U(M) = e^{M/50} - 1$
 
 Where `M` is the monetary value associated with either a guaranteed return or a probabilistic (risky) option.
 
-## 📊 Financial Options Compared
+---
+
+### 📊 Financial Options Compared
 
 - **Option A:** Guaranteed to make $M
 - **Option B:** M% chance to make 100, (100 − M)% chance to make 0
 
 The goal is to compute and compare the **expected utility** of both options for various values of M.
 
-## Features & Tasks Completed
+---
+
+### Features & Tasks Completed
 
 - Derived and coded utility equations for both financial options
 - Calculated and **graphed utility values** for M ranging from 0 to 100 in steps of 10
@@ -28,7 +34,9 @@ The goal is to compute and compare the **expected utility** of both options for 
 - Determined the **equivalent gamble percentage** that yields the same utility as a guaranteed $70
 - Fully documented and explained all decisions in code and graphically
 
-## Example Output
+---
+
+### Example Output
 
 - Utility graph (`utility_plot.png`) clearly shows the comparison between guaranteed vs. risky options
 - Terminal outputs provide specific utility values and explain decision preferences
@@ -45,14 +53,18 @@ The goal is to compute and compare the **expected utility** of both options for 
   To match this utility, the company would accept a gamble with a 47.82% chance of receiving $100.
   ```
 
-## Skills Demonstrated
+---
+
+### Skills Demonstrated
 
 - Python scripting & visualization (NumPy, Matplotlib, SciPy)
 - Risk analysis and decision theory
 - Clean code organization and documentation
 - Data storytelling through visual and numerical analysis
 
-## 🚀 How to Run
+---
+
+### 🚀 How to Run
 
 1. Clone the repo:
    ```bash
@@ -77,11 +89,13 @@ The goal is to compute and compare the **expected utility** of both options for 
    python risk_utility_curve.py
    ```
 
-## Authors & Credits
+---
+
+### Authors & Credits
 
 Developed by John Dawood as part of a project assignment on risk utility modeling and Python data analysis.
 
-## 📬 License
+### 📬 License
 
 MIT License. Feel free to use this code as a learning reference or build upon it.
 
